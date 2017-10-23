@@ -1,0 +1,88 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Oct 10, 2017, 8:29:14 AM
+    Author     : idahk
+*/
+
+/* body and html*/
+/* navbar*/
+body, html{
+ height: 100%;
+  margin:0;
+  font-family:"Lato", sans-serif;
+  
+}
+
+nav {
+    position:fixed;
+    top:0;
+    width: 100%;
+    z-index:200;
+
+    
+}
+.navbar {
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+
+    /* the rest of your styling */
+}
+.navbar-nav > li{
+  padding-left:35px;
+  padding-right:35px;
+}
+.navbar .navbar-inverse{
+    margin-bottom: -20px;
+}
+nav li a {
+
+    color: white;
+    display: block;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    letter-spacing: 3px;
+    font-family:'Raleway', sans-serif, Helvetica, Verdana;
+    -webkit-font-smoothing: antialiased;
+}
+.navbar li a:active{
+    border-bottom: 10px solid #FFEC0A;
+}
+nav li a:hover {
+    background-color: rgba(40, 40, 40, 0.5);
+    -moz-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -webkit-font-smoothing: antialiased;
+}
+
+/*Slider*/
+#myCarousel{
+    height: 100vh;
+    width: 100%;
+    margin-top: 0;
+
+}
+
+.carousel{
+     padding-top:-30px   
+  }
+
+/*section About Us*/
+.sectionAbout{
+    padding-top: 45px;
+    height: 100vh;
+}
+
+/*Features*/
+.features{
+    padding-top: 45px;
+    height: 100vh;
+}

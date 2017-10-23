@@ -1,0 +1,60 @@
+body{
+  font-family:Arial,Helvetica,sans-serif;
+}
+
+#promo{
+  text-align:center;
+  padding:40px;
+  background-size:cover;
+}
+
+@media (max-width:1199px) {
+  #promo{
+    padding:20px;
+  }
+}
+
+div.jumbotron{
+  border-radius:20px;
+  padding:40px;
+  background-color:rgba(250,250,250,0);
+  max-width:800px;
+  margin:0 auto;
+}
+
+#intro p{
+  max-width:800px;
+  font-size:20px;
+  margin:0 auto;
+}
+
+.welcome h1{
+  font-weight:normal;
+  margin-bottom:30px;
+}
+
+.welcome{
+  padding:50px 0 60px;
+  text-align:center;
+}
+
+.dark.side{
+  background-color:#88c9f8;
+  padding-bottom:70px;
+}
+
+#outro.item{
+  margin-top:36px;
+}
+
+#outro.item p{
+  font-size:42px;
+}
+
+#outro.item h2{
+  font-weight:normal;
+  margin-top:12px;
+  margin-bottom:20px;
+  font-size:24px;
+}
+
